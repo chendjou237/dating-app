@@ -4,7 +4,8 @@ $hostname = "aws.connect.psdb.cloud";
 $dbName = "dating";
 $username = "0qr5ddvfa0071nowj5lx";
 $password = "pscale_pw_fOMRxqAwwnXJunTVEnoJHi4fD1kLfZU6uL5XNINIiJO";
-$ssl ='/etc/ssl/cert.pem';
+// $ssl ='/etc/ssl/cert.pem';
+$ssl = '/etc/ssl/certs/ca-certificates.crt';
 
 $conn = mysqli_init();
 $conn->ssl_set(NULL, NULL, $ssl, NULL, NULL);
