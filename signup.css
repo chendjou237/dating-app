@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .box {
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .box-yellow {
+    background-color: #fff8dc;
+  }
+  
+  .box-red {
+    background-color: #dc143c;
+  }
+  
+  .box-purple {
+    background-color: #800080;
+  }
+  
+  .box div {
+    color: #fff;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
