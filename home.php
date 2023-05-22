@@ -34,12 +34,13 @@ if (!isset($_SESSION['username'])) {
                     <?php foreach ($user as $value) { ?>
                         <td><?php echo $value; ?></td>
                     <?php } ?>
-                </tr>
-            <?php } ?>
-            <td class="action-buttons">
+                    <td class="action-buttons">
                         <button onclick="editUser(<?php echo $user['id']; ?>)">Edit</button>
                         <button onclick="deleteUser(<?php echo $user['id']; ?>)">Delete</button>
                     </td>
+                </tr>
+            <?php } ?>
+         
         </table>
     <?php } else { ?>
         <p>No users found.</p>
